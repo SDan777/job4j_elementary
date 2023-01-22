@@ -8,6 +8,7 @@ public class Point {
         double rsl = Math.sqrt(res3);
         return rsl;
     }
+
     public static void main(String[] args) {
         double result = Point.distance(2, 2, 2, 4);
         System.out.println("result (0, 0) to (2, 0) " + result);
