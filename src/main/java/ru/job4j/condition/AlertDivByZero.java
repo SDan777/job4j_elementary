@@ -7,14 +7,14 @@ public class AlertDivByZero {
             System.out.println("Could not div by 0");
         }
     }
-        public static void negativeDiv(int number) {
+    public static void negativeDiv(int number) {
             if (number < 0) {
                 System.out.println("Could not div number > 0");
             }
         }
-    public static  void main(String[] args) {
-    AlertDivByZero.possibleDiv(4);
-        AlertDivByZero.possibleDiv(0);
-        AlertDivByZero.negativeDiv(-3);
+        public static void main(String[] args) {
+            AlertDivByZero.possibleDiv(4);
+            AlertDivByZero.possibleDiv(0);
+            AlertDivByZero.negativeDiv(-3);
     }
 }
