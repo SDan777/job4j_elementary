@@ -5,6 +5,7 @@ public class Max {
         //boolean condition = left < right;
       return left < right ? right : left;
     }
+
     public static void main(String[] args) {
         int str = Max.max(200, 200);
         System.out.println(str);
