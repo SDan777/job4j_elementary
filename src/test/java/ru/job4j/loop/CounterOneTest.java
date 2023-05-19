@@ -14,7 +14,7 @@ public class CounterOneTest {
     }
 
     @Test
-    public void whenSumEverNumberFromThreeToEightThenEighteen(){
+    public void whenSumEverNumberFromThreeToEightThenEighteen() {
         int start = 3;
         int finish = 8;
         int result = CounterOne.sumByEven(start, finish);
@@ -23,7 +23,7 @@ public class CounterOneTest {
     }
 
     @Test
-    public void whenSumEverNumberFromOneToOneThenZero(){
+    public void whenSumEverNumberFromOneToOneThenZero() {
         int start = 1;
         int finish = 1;
         int result = CounterOne.sumByEven(start, finish);
