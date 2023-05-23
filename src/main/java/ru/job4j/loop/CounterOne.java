@@ -12,11 +12,16 @@ public class CounterOne {
     public static int sumByEven(int start, int finish) {
         int sum = 0;
         for (int i = start; i <= finish; i++) {
-            if (start % 2 == 0) {
+            if (i % 2 == 0) {
                 sum += i;
             }
-            start++;
         }
         return sum;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(sumByEven(1,9));
+        System.out.println(sumByEven(4,6));
+        System.out.println(sumByEven(1,1));
     }
 }
