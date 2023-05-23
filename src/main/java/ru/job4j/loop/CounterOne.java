@@ -19,9 +19,4 @@ public class CounterOne {
         return sum;
     }
 
-    public static void main(String[] args) {
-        System.out.println(sumByEven(1,9));
-        System.out.println(sumByEven(4,6));
-        System.out.println(sumByEven(1,1));
-    }
 }
