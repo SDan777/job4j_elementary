@@ -22,7 +22,7 @@ public class FactorialTest {
     }
 
     @Test
-    public void whenCalculateFactorialForOneThenOne(){
+    public void whenCalculateFactorialForOneThenOne() {
         int expected = 1;
         int n = 1;
         int out = Factorial.calc(1);
