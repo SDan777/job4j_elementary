@@ -5,12 +5,10 @@ public class Check {
         boolean result = true;
         for (int i = 0; i < data.length - 1; i++) {
             if (data[0] != data[i + 1]) {
-                result = false;
-                System.out.println(result);
+                System.out.println(result = false);
                 break;
             } else {
-                result = true;
-                System.out.println(result);
+                System.out.println(result = true);
                 break;
             }
         }
