@@ -1,9 +1,5 @@
 package ru.job4j.array;
 
-import jdk.jshell.Snippet;
-
-import java.sql.SQLOutput;
-
 public class FindLoop {
     public static int indexOf(int[] data, int el) {
         int rst = -1;
@@ -18,4 +14,15 @@ public class FindLoop {
         }
         return rst;
     }
+
+        public static int indexInRange(int[] data, int el, int start, int finish) {
+            int rst = -1; /* если элемента нет в массиве, то возвращаем -1. */
+            for (int i = start; i <= finish; i++) {
+                if (data[i] == el) {
+                    rst = i;
+                    return rst;
+                }
+            }
+            return rst;
+        }
 }
