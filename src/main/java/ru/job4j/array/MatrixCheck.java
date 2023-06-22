@@ -8,10 +8,11 @@ public class MatrixCheck {
                 result = false;
                 break;
             }
-            return result;
         }
+        return result;
+    }
 
-        public static boolean monoVertical ( char[][] board, int column){
+        public static boolean monoVertical(char[][] board, int column) {
             boolean result = true;
             for (int i = 0; i < board.length; i++) {
                 for (int j = 0; j < board[i].length; j++) {
