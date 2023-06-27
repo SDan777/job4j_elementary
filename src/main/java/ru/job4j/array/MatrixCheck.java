@@ -32,4 +32,16 @@ public class MatrixCheck {
         }
         return rsl;
     }
+
+    public static boolean isWin(char[][] board) {
+        char[] rsl = new char[board.length];
+        boolean result = false;
+        for (int i = 0; i < rsl.length; i++) {
+            if (monoHorizontal(board, i) || monoVertical(board, i)) {
+                result = true;
+                break;
+            }
+        }
+        return result;
+    }
 }
